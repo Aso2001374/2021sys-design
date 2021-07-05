@@ -67,7 +67,7 @@ package "ECサイト" as target_system {
         reg_date
     }
     
-     customers |o-r-o{ purchase
+     customer |o-r-o{ purchase
      purchase ||-r-|{ purchase_detail
      purchase_detail }-d-|| items
      items }o-l-|| category
