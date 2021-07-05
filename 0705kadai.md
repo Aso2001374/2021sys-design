@@ -6,7 +6,7 @@
 
 skinparam class {
     '図の背景
-    BackgroundColor Black
+    BackgroundColor Snow
     '図の枠
     BorderColor Black
     'リレーションの色
