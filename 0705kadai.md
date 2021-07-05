@@ -36,5 +36,19 @@ package "ECサイト" as target_system {
         total_price
     }
 
+
+    entity "購入詳細テーブル" as purchase_detail <d_purchase_detail> <<T,TRANSACTION_MARK_COLOR>> {
+        + order_id [PK]
+        + detail_id [PK]
+        --
+        item_code
+        price
+        num
+    }
+    
+    
+
+    
+    
 @enduml
 ```
