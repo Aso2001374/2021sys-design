@@ -21,13 +21,14 @@
 |価格|price|int(11)| |〇||
 |数量|num|int(11)| |〇||
 
-### 顧客マスタ (m_customers)
+### 弁護士マスタ (m_lawyer)
 |和名|属性名|型|PK|NN|FK|
 |:---|:-----|:--|:--|:--:|:--:|
-|顧客コード|customer_code|varchar(50)|〇|〇|　|
-|パスワード|pass|varchar(50)| |〇| |
+|弁護士登録番号|customer_code|int(5)|〇|〇|　|
+|パスワード|pass|varchar(6)| |〇| |
 |名前|name|varchar(20)| |〇|　|
-|住所|address|ivarchar(100)| |〇| |
+|ふりがな|name|varchar(40)| |〇|　|
+|住所|address|varchar(100)| |〇| |
 |電話番号|tel|varchar(20)| |〇|　|
 |メールアドレス|mail|varchar(50)| |〇| |
 |削除フラグ|del_flag|int(1)| | |　|
