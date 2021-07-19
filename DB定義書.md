@@ -24,7 +24,7 @@
 ### 弁護士マスタ (m_lawyer)
 |和名|属性名|型|PK|NN|FK|
 |:---|:-----|:--|:--|:--:|:--:|
-|弁護士登録番号|customer_code|int(5)|〇|〇|　|
+|弁護士登録番号|customer_code|int(5)|〇|〇|〇|
 |パスワード|pass|varchar(6)| |〇| |
 |名前|name|varchar(20)| |〇|　|
 |ふりがな|kana|varchar(40)| |〇|　|
@@ -34,7 +34,7 @@
 |電話番号1|tel1|varchar(20)| |〇|　|
 |電話番号2|tel2|varchar(20)| ||　|
 |メールアドレス1|mail1|varchar(50)| |〇| |
-|メールアドレス2|mail|2varchar(50)| || |
+|メールアドレス2|mail2|varchar(50)| || |
 |銀行名|bank|varchar(30)| |〇| |
 |口座番号|bank_number|int(7)| |〇| |
 |顔写真|picture|(webと同じやり方でimg)| |〇| |
@@ -59,6 +59,6 @@
 |電話番号1|tel1|varchar(20)| |〇|　|
 |電話番号2|tel2|varchar(20)| ||　|
 |メールアドレス1|mail1|varchar(50)| |〇| |
-|メールアドレス2|mail|2varchar(50)| || |
+|メールアドレス2|mail2|varchar(50)| || |
 |削除フラグ|del_flag|int(1)|〇|〇|　|
 |登録日|reg_date|date| |〇| |
