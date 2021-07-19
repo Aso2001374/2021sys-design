@@ -29,10 +29,16 @@
 |名前|name|varchar(20)| |〇|　|
 |ふりがな|name|varchar(40)| |〇|　|
 |住所|address|varchar(100)| |〇| |
-|電話番号|tel|varchar(20)| |〇|　|
-|メールアドレス|mail|varchar(50)| |〇| |
+|事務所|address|varchar(100)| |〇| |
+|電話番号1|tel|varchar(20)| |〇|　|
+|電話番号2|tel|varchar(20)| ||　|
+|メールアドレス1|mail|varchar(50)| |〇| |
+|メールアドレス2|mail|varchar(50)| || |
+|銀行名|bank|varchar(30)| |〇| |
+|口座番号|bank_number|int(7)| |〇| |
+|顔写真|picture|(webと同じやり方でimg)| |〇| |
 |削除フラグ|del_flag|int(1)| | |　|
-|登録日|reg_date|date| |〇| |
+
 
 ### カテゴリマスタ (m_category)
 |和名|属性名|型|PK|NN|FK|
