@@ -37,7 +37,7 @@
 |銀行名|bank|varchar(30)| |〇| |
 |口座番号|bank_number|int(7)| |〇| |
 |顔写真|picture|(webと同じやり方でimg)| |〇| |
-|削除フラグ|del_flag|int(1)| | |　|
+|削除フラグ|del_flag|int(1)| |〇|　|
 
 
 ### カテゴリマスタ (m_category)
