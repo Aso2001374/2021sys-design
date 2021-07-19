@@ -4,13 +4,16 @@
 
 ## DBテーブルカラム詳細一覧
 
-### 購入テーブル (d_purchase)
+### 検索テーブル (d_search)
 |和名|属性名|型|PK|NN|FK|
 |:---|:-----|:--|:--|:--:|:--:|
-|オーダーID|order id|bigint(20)|〇|〇|　|
-|顧客コード|custmer_code|varchar(50)| |〇| |
-|購入日|purchase_date|date| |〇|　|
-|総額|total_price|int(11)| |〇||
+|弁護士登録番号|customer_code|int(5)|〇|〇||
+|都道府県番号|Prefectures＿number|int(2)||〇||
+|都道府県名|Prefectures|varchar(4)||〇||
+|相談種別コード|consultation_code|int(2)| |〇| |
+|費用|cash|int(1)| |〇|　|
+|氏名|name||varchar(20)| |〇||
+|オプション|option||int(2)| |〇||
 
 ### 購入詳細テーブル (d_purchase_detail)
 |和名|属性名|型|PK|NN|FK|
@@ -53,6 +56,7 @@
 |和名|属性名|型|PK|NN|FK|
 |:---|:-----|:--|:--|:--:|:--:|
 |ユーザーID|uer_id|int(8)|〇|〇|　|
+|パスワード|pass|varchar(6)| |〇| |
 |氏名|name|varchar（20)| |〇| |
 |ふりがな|kana|varchar（40)| |〇|　|
 |住所|address|varchar(100)| |〇| |
