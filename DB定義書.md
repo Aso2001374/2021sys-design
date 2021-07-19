@@ -12,8 +12,8 @@
 |都道府県名|Prefectures|varchar(4)||〇||
 |相談種別コード|consultation_code|int(2)| |〇| |
 |費用|cash|int(1)| |〇|　|
-|氏名|name||varchar(20)| |〇||
-|オプション|option||int(2)| |〇||
+|氏名|name|varchar(20)|| |〇||
+|オプション|option|int(2)|| |〇||
 
 ### 購入詳細テーブル (d_purchase_detail)
 |和名|属性名|型|PK|NN|FK|
