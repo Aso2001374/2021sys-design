@@ -44,16 +44,10 @@
 |銀行名|bank|varchar(30)| |〇| |
 |口座番号|bank_number|int(7)| |〇| |
 |顔写真|picture|(webと同じやり方でimg)| |〇| |
-|削除フラグ|del_flag|int(1)| |〇|　|
+|削除フラグ|del_flag|int(1)|〇|〇|　|
 |登録日|reg_date|date| |〇| |
 
 
-### カテゴリマスタ (m_category)
-|和名|属性名|型|PK|NN|FK|
-|:---|:-----|:--|:--|:--:|:--:|
-|カテゴリID|category_id|int(11)|〇|〇|　|
-|カテゴリ名|name|varchar(20)| |〇| |
-|登録日|reg_date|date| |〇| |
 
 ### 顧客マスタ (m_user)
 |和名|属性名|型|PK|NN|FK|
