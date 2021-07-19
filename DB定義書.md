@@ -27,7 +27,7 @@
 |弁護士登録番号|customer_code|int(5)|〇|〇|　|
 |パスワード|pass|varchar(6)| |〇| |
 |名前|name|varchar(20)| |〇|　|
-|ふりがな|name|varchar(40)| |〇|　|
+|ふりがな|kana|varchar(40)| |〇|　|
 |住所|address|varchar(100)| |〇| |
 |事務所|address|varchar(100)| |〇| |
 |電話番号1|tel|varchar(20)| |〇|　|
