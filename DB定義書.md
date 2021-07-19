@@ -29,7 +29,7 @@
 |名前|name|varchar(20)| |〇|　|
 |ふりがな|kana|varchar(40)| |〇|　|
 |住所|address|varchar(100)| |〇| |
-|郵便番号|posta＿code|int(7)| |〇| |
+|郵便番号|posta_code|int(7)| |〇| |
 |事務所|office|varchar(100)| |〇| |
 |電話番号1|tel1|varchar(20)| |〇|　|
 |電話番号2|tel2|varchar(20)| ||　|
@@ -56,6 +56,7 @@
 |氏名|name|varchar（20)| |〇| |
 |ふりがな|kana|varchar（40)| |〇|　|
 |住所|address|varchar(100)| |〇| |
+|郵便番号|posta_code|int(7)| |〇| |
 |電話番号1|tel1|varchar(20)| |〇|　|
 |電話番号2|tel2|varchar(20)| ||　|
 |メールアドレス1|mail1|varchar(50)| |〇| |
