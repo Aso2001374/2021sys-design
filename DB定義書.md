@@ -13,7 +13,10 @@
 |相談種別コード|consultation_code|int(2)| |〇| |
 |費用|cash|int(1)| |〇|　|
 |氏名|name|varchar(20)||〇||
-|オプション|option|int(2)||〇||
+|オプション1|option1|int(2)||〇||
+|オプション2|option2|int(2)||||
+|オプション3|option3|int(2)||||
+|オプション4|option4|int(2)||||
 
 ### 購入詳細テーブル (d_purchase_detail)
 |和名|属性名|型|PK|NN|FK|
