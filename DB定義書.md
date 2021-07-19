@@ -29,6 +29,7 @@
 |名前|name|varchar(20)| |〇|　|
 |ふりがな|kana|varchar(40)| |〇|　|
 |住所|address|varchar(100)| |〇| |
+|郵便番号|posta＿code|int(7)| |〇| |
 |事務所|office|varchar(100)| |〇| |
 |電話番号1|tel1|varchar(20)| |〇|　|
 |電話番号2|tel2|varchar(20)| ||　|
@@ -38,6 +39,7 @@
 |口座番号|bank_number|int(7)| |〇| |
 |顔写真|picture|(webと同じやり方でimg)| |〇| |
 |削除フラグ|del_flag|int(1)| |〇|　|
+|登録日|reg_date|date| |〇| |
 
 
 ### カテゴリマスタ (m_category)
@@ -47,14 +49,16 @@
 |カテゴリ名|name|varchar(20)| |〇| |
 |登録日|reg_date|date| |〇| |
 
-### 商品マスタ (m_items)
+### 顧客マスタ (m_user)
 |和名|属性名|型|PK|NN|FK|
 |:---|:-----|:--|:--|:--:|:--:|
-|商品コード|item_code|int(11)|〇|〇|　|
-|商品名|item_name|varchar(50)| |〇| |
-|価格|price|int(11)| |〇|　|
-|カテゴリID|category_id|int(11)| |〇| |
-|画像ファイル名|image|varchar(200)| |〇|　|
-|商品詳細説明|detail|varchar(500)|〇|〇| |
+|ユーザーID|uer_id|int(8)|〇|〇|　|
+|氏名|name|varchar（20)| |〇| |
+|ふりがな|kana|varchar（40)| |〇|　|
+|住所|address|varchar(100)| |〇| |
+|電話番号1|tel1|varchar(20)| |〇|　|
+|電話番号2|tel2|varchar(20)| ||　|
+|メールアドレス1|mail1|varchar(50)| |〇| |
+|メールアドレス2|mail|2varchar(50)| || |
 |削除フラグ|del_flag|int(1)|〇|〇|　|
 |登録日|reg_date|date| |〇| |
