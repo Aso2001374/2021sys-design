@@ -29,11 +29,11 @@
 |名前|name|varchar(20)| |〇|　|
 |ふりがな|kana|varchar(40)| |〇|　|
 |住所|address|varchar(100)| |〇| |
-|事務所|address|varchar(100)| |〇| |
-|電話番号1|tel|varchar(20)| |〇|　|
-|電話番号2|tel|varchar(20)| ||　|
-|メールアドレス1|mail|varchar(50)| |〇| |
-|メールアドレス2|mail|varchar(50)| || |
+|事務所|office|varchar(100)| |〇| |
+|電話番号1|tel1|varchar(20)| |〇|　|
+|電話番号2|tel2|varchar(20)| ||　|
+|メールアドレス1|mail1|varchar(50)| |〇| |
+|メールアドレス2|mail|2varchar(50)| || |
 |銀行名|bank|varchar(30)| |〇| |
 |口座番号|bank_number|int(7)| |〇| |
 |顔写真|picture|(webと同じやり方でimg)| |〇| |
