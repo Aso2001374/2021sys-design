@@ -5,9 +5,9 @@ d_search
 |customer_code|int(5)||||
 |Prefectures＿number|int(2)||||
 |consultation_code|int(2)||| |
-|cash_code|int(2)|〇|〇|　|
-|name_code|varchar(20)||〇||
-|option_code|int(2)||〇||
+|cash_code|int(2)|||　|
+|name_code|varchar(20)||||
+|option_code|int(2)||||
 
 
 m_conditions
