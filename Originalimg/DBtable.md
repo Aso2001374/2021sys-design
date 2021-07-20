@@ -9,7 +9,7 @@ m_conditions
 |consultation_name|varchar(40)| |〇| |
 |cash_code|int(2)|〇|〇|〇|
 |cash_name|int(2)||〇||
-|name_code|int(10)|〇|〇|〇|
+|customer_code|int(5)|〇|〇|〇|
 |name|varchar(20)||〇||
 |option_code|int(2)|〇|〇|〇|
 |option_name|varchar(40)||〇||
