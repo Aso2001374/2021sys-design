@@ -53,3 +53,15 @@ m_user
 |mail2|varchar(50)| || |
 |del_flag|int(1)|〇|〇|　|
 |reg_date|date| |〇| |
+
+
+
+m_Review
+|属性名|型|PK|NN|FK|
+|-----|--|--|--|--|
+|Review_id|int(10)|〇|〇|〇|
+|Review|varchar(1000)| |〇||
+|writer|varchar（20)| |〇|〇|
+|date|date| |〇|〇|
+|del_flag|int(1)|〇|〇|　|
+|reg_date|date| |〇| |
