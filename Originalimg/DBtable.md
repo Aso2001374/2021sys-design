@@ -2,21 +2,23 @@
 d_search
 |属性名|型|PK|NN|FK|
 |-----|--|--|--|--|
-|customer_code|int(5)|〇|〇||
-|Prefectures＿number|int(2)||〇||
-|Prefectures|varchar(4)||〇||
-|consultation_code|int(2)| |〇| |
-|cash|int(1)| |〇|　|
+|customer_code|int(5)||||
+|Prefectures＿number|int(2)||||
+|consultation_code|int(2)||| |
+|cash_code|int(2)|〇|〇|　|
 |name|varchar(20)||〇||
 |option1|int(2)||〇||
 |option2|int(2)||||
 |option3|int(2)||||
 |option4|int(2)||||
 
-d_purchase_detail
+m_conditions
 |属性名|型|PK|NN|FK|
 |-----|--|--|--|--|
-|detail_id|bigint(20)|〇|〇|　|
+|Prefectures＿number|int(2)|〇|〇|〇|
+|Prefectures|varchar(4)||〇||
+|consultation_code|int(2)|〇|〇|〇|
+|consultation_name|varchar(40)| |〇| |
 |order_id|bigint(20)|〇|〇|〇|
 |item_code|int(11)| |〇|　|
 |price|int(11)| |〇||
