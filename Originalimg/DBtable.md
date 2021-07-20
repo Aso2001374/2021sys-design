@@ -1,14 +1,4 @@
 データベース詳細<br>
-d_search
-|属性名|型|PK|NN|FK|
-|-----|--|--|--|--|
-|customer_code|int(5)||||
-|Prefectures_number|int(2)||||
-|consultation_code|int(2)||| |
-|cash_code|int(2)|||　|
-|name_code|varchar(20)||||
-|option_code|int(2)||||
-
 
 m_conditions
 |属性名|型|PK|NN|FK|
