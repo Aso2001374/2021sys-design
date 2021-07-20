@@ -23,7 +23,7 @@ d_purchase_detail
 |num|int(11)| |〇||
 
 m_lawyer
-|和名|属性名|型|PK|NN|FK|
+属性名|型|PK|NN|FK|
 |-----|--|--|--|--|
 |customer_code|int(5)|〇|〇|〇|
 |pass|varchar(6)| |〇| |
