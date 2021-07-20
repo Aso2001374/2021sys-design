@@ -15,7 +15,7 @@
 ### 購入詳細テーブル(d_purchase_detail)
 |和名|属性名(カラム名)|型|PK|NN|FK|
 |:---|:-----|:--|:-|:--:|:--:|
-オーダー詳細ID||detail_id|bigint(20)|〇|〇|　|
+オーダー詳細ID|detail_id|bigint(20)||〇|〇|　|
 |オーダーID|order_id|bigint(20)|〇|〇|〇|
 |商品コード|item_code|int(11)| |〇|　|
 |価格|price|int(11)| |〇||
