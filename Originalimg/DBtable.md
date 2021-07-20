@@ -13,6 +13,8 @@ m_conditions
 |name|varchar(20)||〇||
 |option_code|int(2)|〇|〇|〇|
 |option_name|varchar(40)||〇||
+|del_flag|int(1)|〇|〇|　|
+|reg_date|date| |〇| |
 
 m_lawyer
 属性名|型|PK|NN|FK|
