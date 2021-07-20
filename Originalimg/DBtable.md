@@ -6,11 +6,9 @@ d_search
 |Prefectures＿number|int(2)||||
 |consultation_code|int(2)||| |
 |cash_code|int(2)|〇|〇|　|
-|name|varchar(20)||〇||
-|option1|int(2)||〇||
-|option2|int(2)||||
-|option3|int(2)||||
-|option4|int(2)||||
+|name_code|varchar(20)||〇||
+|option_code|int(2)||〇||
+
 
 m_conditions
 |属性名|型|PK|NN|FK|
@@ -19,10 +17,12 @@ m_conditions
 |Prefectures|varchar(4)||〇||
 |consultation_code|int(2)|〇|〇|〇|
 |consultation_name|varchar(40)| |〇| |
-|order_id|bigint(20)|〇|〇|〇|
-|item_code|int(11)| |〇|　|
-|price|int(11)| |〇||
-|num|int(11)| |〇||
+|cash_code|int(2)|〇|〇|〇|
+|cash_name|int(2)||〇||
+|name_code|int(10)|〇|〇|〇|
+|name||varchar(20)||〇||
+|option_code|int(2)|〇|〇|〇|
+|option_name|varchar(40)||〇||
 
 m_lawyer
 属性名|型|PK|NN|FK|
