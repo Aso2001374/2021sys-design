@@ -14,7 +14,7 @@ m_conditions
 |属性名|型|PK|NN|FK|
 |-----|--|--|--|--|
 |Prefectures_number|int(2)|〇|〇|〇|
-|Prefectures|varchar(4)||〇||
+|Prefectures_name|varchar(4)||〇||
 |consultation_code|int(2)|〇|〇|〇|
 |consultation_name|varchar(40)| |〇| |
 |cash_code|int(2)|〇|〇|〇|
