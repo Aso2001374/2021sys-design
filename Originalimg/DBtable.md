@@ -13,49 +13,49 @@ d_search
 |option3|int(2)||||
 |option4|int(2)||||
 
-### 購入詳細テーブル (d_purchase_detail)
+d_purchase_detail
+|属性名|型|PK|NN|FK|
+|-----|--|--|--|--|
+|detail_id|bigint(20)|〇|〇|　|
+|order_id|bigint(20)|〇|〇|〇|
+|item_code|int(11)| |〇|　|
+|price|int(11)| |〇||
+|num|int(11)| |〇||
+
+m_lawyer
 |和名|属性名|型|PK|NN|FK|
-|:---|:-----|:--|:--|:--:|:--:|
-|購入詳細ID|detail_id|bigint(20)|〇|〇|　|
-|オーダーID|order_id|bigint(20)|〇|〇|〇|
-|商品コード|item_code|int(11)| |〇|　|
-|価格|price|int(11)| |〇||
-|数量|num|int(11)| |〇||
-
-### 弁護士マスタ (m_lawyer)
-|和名|属性名|型|PK|NN|FK|
-|:---|:-----|:--|:--|:--:|:--:|
-|弁護士登録番号|customer_code|int(5)|〇|〇|〇|
-|パスワード|pass|varchar(6)| |〇| |
-|名前|name|varchar(20)| |〇|　|
-|ふりがな|kana|varchar(40)| |〇|　|
-|住所|address|varchar(100)| |〇| |
-|郵便番号|posta_code|int(7)| |〇| |
-|事務所|office|varchar(100)| |〇| |
-|電話番号1|tel1|varchar(20)| |〇|　|
-|電話番号2|tel2|varchar(20)| ||　|
-|メールアドレス1|mail1|varchar(50)| |〇| |
-|メールアドレス2|mail2|varchar(50)| || |
-|銀行名|bank|varchar(30)| |〇| |
-|口座番号|bank_number|int(7)| |〇| |
-|顔写真|picture|(webと同じやり方でimg)| |〇| |
-|削除フラグ|del_flag|int(1)|〇|〇|　|
-|登録日|reg_date|date| |〇| |
+|-----|--|--|--|--|
+|customer_code|int(5)|〇|〇|〇|
+|pass|varchar(6)| |〇| |
+|name|varchar(20)| |〇|　|
+|kana|varchar(40)| |〇|　|
+|address|varchar(100)| |〇| |
+|posta_code|int(7)| |〇| |
+|office|varchar(100)| |〇| |
+|tel1|varchar(20)| |〇|　|
+|tel2|varchar(20)| ||　|
+|mail1|varchar(50)| |〇| |
+|mail2|varchar(50)| || |
+|bank|varchar(30)| |〇| |
+|bank_number|int(7)| |〇| |
+|picture|(webと同じやり方でimg)| |〇| |
+|del_flag|int(1)|〇|〇|　|
+|reg_date|date| |〇| |
 
 
 
-### 顧客マスタ (m_user)
-|和名|属性名|型|PK|NN|FK|
-|:---|:-----|:--|:--|:--:|:--:|
-|ユーザーID|uer_id|int(8)|〇|〇|　|
-|パスワード|pass|varchar(6)| |〇| |
-|氏名|name|varchar（20)| |〇| |
-|ふりがな|kana|varchar（40)| |〇|　|
-|住所|address|varchar(100)| |〇| |
-|郵便番号|posta_code|int(7)| |〇| |
-|電話番号1|tel1|varchar(20)| |〇|　|
-|電話番号2|tel2|varchar(20)| ||　|
-|メールアドレス1|mail1|varchar(50)| |〇| |
-|メールアドレス2|mail2|varchar(50)| || |
-|削除フラグ|del_flag|int(1)|〇|〇|　|
-|登録日|reg_date|date| |〇| |
+m_user
+|属性名|型|PK|NN|FK|
+|-----|--|--|--|--|
+|uer_id|int(8)|〇|〇|　|
+|pass|varchar(6)| |〇| |
+|name|varchar（20)| |〇| |
+|kana|varchar（40)| |〇|　|
+|address|varchar(100)| |〇| |
+|posta_code|int(7)| |〇| |
+|tel1|varchar(20)| |〇|　|
+|tel2|varchar(20)| ||　|
+|mail1|varchar(50)| |〇| |
+|mail2|varchar(50)| || |
+|del_flag|int(1)|〇|〇|　|
+|reg_date|date| |〇| |
