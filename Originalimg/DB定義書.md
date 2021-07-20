@@ -7,16 +7,18 @@
 ### 条件マスタ (m_conditions)
 |和名|属性名|型|PK|NN|FK|
 |:---|:-----|:--|:--|:--:|:--:|
-|弁護士登録番号|customer_code|int(5)|〇|〇||
-|都道府県番号|Prefectures＿number|int(2)||〇||
-|都道府県名|Prefectures|varchar(4)||〇||
-|相談種別コード|consultation_code|int(2)| |〇| |
-|費用|cash|int(1)| |〇|　|
-|氏名|name|varchar(20)||〇||
-|オプション1|option1|int(2)||〇||
-|オプション2|option2|int(2)||||
-|オプション3|option3|int(2)||||
-|オプション4|option4|int(2)||||
+|都道府県ナンバー|Prefectures_number|int(2)|〇|〇|〇|
+|都道府県|Prefectures_name|varchar(4)||〇||
+|相談項目ナンバー|consultation_code|int(2)|〇|〇|〇|
+|相談項目|consultation_name|varchar(40)| |〇| |
+|価格帯ナンバー|cash_code|int(2)|〇|〇|〇|
+|価格帯|cash_name|int(2)||〇||
+|弁護士登録番号|customer_code|int(5)|〇|〇|〇|
+|弁護士名|name|varchar(20)||〇||
+|オプションナンバー|option_code|int(2)|〇|〇|〇|
+|オプション|option_name|varchar(40)||〇||
+|削除フラグ|del_flag|int(1)|〇|〇|　|
+|登録日|reg_date|date| |〇| |
 
 ### 購入詳細テーブル (d_purchase_detail)
 |和名|属性名|型|PK|NN|FK|
