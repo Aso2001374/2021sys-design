@@ -3,7 +3,7 @@ d_search
 |属性名|型|PK|NN|FK|
 |-----|--|--|--|--|
 |customer_code|int(5)||||
-|Prefectures＿number|int(2)||||
+|Prefectures_number|int(2)||||
 |consultation_code|int(2)||| |
 |cash_code|int(2)|||　|
 |name_code|varchar(20)||||
@@ -13,7 +13,7 @@ d_search
 m_conditions
 |属性名|型|PK|NN|FK|
 |-----|--|--|--|--|
-|Prefectures＿number|int(2)|〇|〇|〇|
+|Prefectures_number|int(2)|〇|〇|〇|
 |Prefectures|varchar(4)||〇||
 |consultation_code|int(2)|〇|〇|〇|
 |consultation_name|varchar(40)| |〇| |
