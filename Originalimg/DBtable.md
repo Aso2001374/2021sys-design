@@ -1,7 +1,7 @@
 データベース詳細<br>
 d_search
 |属性名|型|PK|NN|FK|
-|---|-----|--|--|--|--|
+|-----|--|--|--|--|
 |customer_code|int(5)|〇|〇||
 |Prefectures＿number|int(2)||〇||
 |Prefectures|varchar(4)||〇||
