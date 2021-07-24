@@ -40,26 +40,24 @@ package "ECサイト" as target_system {
     }
 
 
-    entity "購入テーブル" as purchase <d_purchase> <<T,TRANSACTION_MARK_COLOR>> {
-        + order_id [PK]
+    entity "レビューテーブル" as Review <d_Review> <<T,TRANSACTION_MARK_COLOR>> {
+        + Review_id [PK][FK]
         --
-        customer_code
-        purchase_date
-        total_price
+        date
     }
 
 
-    entity "購入詳細テーブル" as purchase_detail <d_purchase_detail> <<T,TRANSACTION_MARK_COLOR>> {
-        + order_id [PK]
-        + detail_id [PK]
+    entity "レビュー詳細テーブル" as Review-detail <d_Review-detail> <<T,TRANSACTION_MARK_COLOR>> {
+        + Review_id [PK]
+        + Review_detail-id[PK]
+        + user_id[PK]
         --
-        item_code
-        price
-        num
+        title
+        Review
     }
     
     
-    entity "商品マスタ" as items <m_items> <<M,MASTER_MARK_COLOR>> {
+    entity "マスタ" as items <d_Review-detail> <<M,MASTER_MARK_COLOR>> {
         + item_code [PK]
         --
         item_name
