@@ -67,6 +67,7 @@ d_Review-detail
 |属性名|型|PK|NN|FK|
 |-----|--|--|--|--|
 |Review_id|int(10)|〇|〇|〇|
+|Review_detail-id|int(10)|〇|〇||
 |user_id|int(8)|〇|〇|　|
 |title|varchar(100)| |〇||
 |Review|varchar(1000)| |〇||
