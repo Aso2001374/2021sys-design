@@ -15,8 +15,8 @@ skinparam class {
 
 package "ECサイト" as target_system {
 
-    entity "顧客マスタ" as customer <m_customers> <<M,MASTER_MARK_COLOR>> {
-        + customer_code [PK]
+    entity "弁護士マスタ" as lawyer <m_lawyer> <<M,MASTER_MARK_COLOR>> {
+        + customer_code [PK][FK]
         --
         pass
         name
