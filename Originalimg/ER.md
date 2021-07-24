@@ -74,10 +74,19 @@ package "ECサイト" as target_system {
     }
     
     
-    entity "カテゴリマスタ" as category <m_category> <<M,MASTER_MARK_COLOR>> {
-        + category_id [PK]
+    entity "顧客マスタ" as user <m_user> <<M,MASTER_MARK_COLOR>> {
+        + user_id [PK]
         --
+        pass
         name
+        kana
+        address
+        posta_code
+        tel1
+        tel2
+        mail1
+        mail2
+        del_flag
         reg_date
     }
     
