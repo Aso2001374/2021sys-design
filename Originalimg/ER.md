@@ -42,6 +42,7 @@ package "ECサイト" as target_system {
 
     entity "レビューテーブル" as Review <d_Review> <<T,TRANSACTION_MARK_COLOR>> {
         + Review_id [PK][FK]
+        + customer_code [PK]
         --
         date
     }
@@ -90,11 +91,9 @@ package "ECサイト" as target_system {
         reg_date
     }
     
-     customer |o-r-o{ purchase
-     purchase ||-r-|{ purchase_detail
-     purchase_detail }-d-|| items
-     items }o-l-|| category
- 
+     lawyer ||-r-| Review
+     Review |-r-o{ Review-detail
+     lawyer ||-r-|| conditions
  }   
 @enduml
 ```
