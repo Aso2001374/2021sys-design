@@ -17,7 +17,7 @@
 |弁護士名|name|varchar(20)||〇||
 |オプションナンバー|option_code|int(2)|〇|〇|〇|
 |オプション|option_name|varchar(40)||〇||
-|削除フラグ|del_flag|int(1)|〇|〇|　|
+|削除フラグ|del_flag|int(1)||〇|　|
 |登録日|reg_date|date| |〇| |
 
 ### レビューテーブル(d_Review)
@@ -58,7 +58,7 @@
 |相談項目ナンバー|consultation_code|int(2)||〇||
 |価格帯ナンバー|cash_code|int(2)||〇||
 |オプションナンバー|option_code|int(2)||〇||
-|削除フラグ|del_flag|int(1)|〇|〇|　|
+|削除フラグ|del_flag|int(1)||〇|　|
 |登録日|reg_date|date| |〇| |
 
 
@@ -76,5 +76,5 @@
 |電話番号2|tel2|varchar(20)| ||　|
 |メールアドレス1|mail1|varchar(50)| |〇| |
 |メールアドレス2|mail2|varchar(50)| || |
-|削除フラグ|del_flag|int(1)|〇|〇|　|
+|削除フラグ|del_flag|int(1)||〇|　|
 |登録日|reg_date|date| |〇| |
