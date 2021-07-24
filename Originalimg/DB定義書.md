@@ -53,7 +53,7 @@
 |メールアドレス2|mail2|varchar(50)| || |
 |銀行名|bank|varchar(30)| |〇| |
 |口座番号|bank_number|int(7)| |〇| |
-|顔写真|picture|(webと同じやり方でimg)| |〇| |
+|顔写真|picture|https://www.figma.com/file/EC6HJax9FH50cwnpwUmhDG/Untitled?node-id=29%3A2| |〇| |
 |削除フラグ|del_flag|int(1)|〇|〇|　|
 |登録日|reg_date|date| |〇| |
 
