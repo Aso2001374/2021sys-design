@@ -31,7 +31,7 @@
 |和名|属性名(カラム名)|型|PK|NN|FK|
 |:--|:-----|:--|:--|:--|:--|
 |レビューID|Review_id|int(10)|〇|〇|〇|
-|レビュー詳細ID|Review_detail-id|int(10)|〇|〇|〇|
+|レビュー詳細ID|Review_detail-id|int(10)|〇|〇||
 |ユーザID|user_id|int(8)|〇|〇|　|
 |タイトル|title|varchar(100)| |〇||
 |レビュー|Review|varchar(1000)| |〇||
