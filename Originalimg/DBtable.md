@@ -16,6 +16,7 @@ m_conditions
 |del_flag|int(1)|〇|〇|　|
 |reg_date|date| |〇| |
 
+
 m_lawyer
 属性名|型|PK|NN|FK|
 |-----|--|--|--|--|
@@ -37,7 +38,6 @@ m_lawyer
 |reg_date|date| |〇| |
 
 
-
 m_user
 |属性名|型|PK|NN|FK|
 |-----|--|--|--|--|
@@ -56,12 +56,19 @@ m_user
 
 
 
-m_Review
+d_Review
 |属性名|型|PK|NN|FK|
 |-----|--|--|--|--|
 |Review_id|int(10)|〇|〇|〇|
-|Review|varchar(1000)| |〇||
-|writer|varchar（20)| |〇|〇|
 |date|date| |〇|〇|
+
+
+d_Review-detail
+|属性名|型|PK|NN|FK|
+|-----|--|--|--|--|
+|Review_id|int(10)|〇|〇|〇|
+|user_id|int(8)|〇|〇|　|
+|title|varchar(100)| |〇||
+|Review|varchar(1000)| |〇||
 |del_flag|int(1)|〇|〇|　|
 |reg_date|date| |〇| |
