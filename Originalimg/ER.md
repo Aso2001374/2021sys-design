@@ -91,8 +91,8 @@ package "ECサイト" as target_system {
         reg_date
     }
     
-     lawyer }o-r-|| Review
-     Review |---o{ Review-detail
+     lawyer ||-r-|| Review
+     Review ||-r-o{ Review-detail
      lawyer }o-d-|| conditions
  }   
 @enduml
