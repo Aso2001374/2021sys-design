@@ -20,9 +20,21 @@ package "ECサイト" as target_system {
         --
         pass
         name
+        kana
         address
-        tel
-        mail
+        posta_code
+        office
+        tel1
+        tel2
+        mail1
+        mail2
+        bank
+        bank_number
+        picture
+        Prefectures_number
+        consultation_code
+        cash_code
+        option_code
         del_flag
         reg_date
     }
