@@ -34,10 +34,10 @@ m_lawyer
 |bank|varchar(30)| |〇| |
 |bank_number|int(7)| |〇| |
 |picture|(webと同じやり方でimg)| |〇| |
-|Prefectures_number|int(2)|〇|〇|〇|
-|consultation_code|int(2)|〇|〇|〇|
-|cash_code|int(2)|〇|〇|〇|
-|option_code|int(2)|〇|〇|〇|
+|Prefectures_number|int(2)||〇||
+|consultation_code|int(2)||〇||
+|cash_code|int(2)||〇||
+|option_code|int(2)||〇||
 |del_flag|int(1)|〇|〇|　|
 |reg_date|date| |〇| |
 
