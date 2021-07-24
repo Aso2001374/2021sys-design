@@ -57,14 +57,18 @@ package "ECサイト" as target_system {
     }
     
     
-    entity "マスタ" as items <d_Review-detail> <<M,MASTER_MARK_COLOR>> {
-        + item_code [PK]
+    entity "条件マスタ" as conditions <d_conditions> <<M,MASTER_MARK_COLOR>> {
+        + Prefectures_number [PK][FK]
+        + consultation_code [PK][FK]
+        + cash_code [PK][FK]
+        + customer_code [PK][FK]
+        + option_code [PK][FK]
         --
-        item_name
-        price
-        category_id
-        image
-        detail
+        Prefectures_name
+        consultation_name
+        cash_name
+        name
+        option_name
         del_flag
         reg_date
     }
