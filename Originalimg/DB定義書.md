@@ -54,6 +54,10 @@
 |銀行名|bank|varchar(30)| |〇| |
 |口座番号|bank_number|int(7)| |〇| |
 |顔写真|picture|https://www.figma.com/file/EC6HJax9FH50cwnpwUmhDG/Untitled?node-id=29%3A2| |〇| |
+|都道府県ナンバー|Prefectures_number|int(2)|〇|〇|〇|
+|相談項目ナンバー|consultation_code|int(2)|〇|〇|〇|
+|価格帯ナンバー|cash_code|int(2)|〇|〇|〇|
+|オプションナンバー|option_code|int(2)|〇|〇|〇|
 |削除フラグ|del_flag|int(1)|〇|〇|　|
 |登録日|reg_date|date| |〇| |
 
