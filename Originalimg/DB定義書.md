@@ -5,7 +5,7 @@
 ## DBテーブルカラム詳細一覧
 
 ### 条件マスタ (m_conditions)
-|和名|属性名|型|PK|NN|FK|
+|和名|属性名(カラム名)|型|PK|NN|FK|
 |:---|:-----|:--|:--|:--:|:--:|
 |都道府県ナンバー|Prefectures_number|int(2)|〇|〇|〇|
 |都道府県|Prefectures_name|varchar(4)||〇||
@@ -20,17 +20,24 @@
 |削除フラグ|del_flag|int(1)|〇|〇|　|
 |登録日|reg_date|date| |〇| |
 
-### 購入詳細テーブル (d_purchase_detail)
-|和名|属性名|型|PK|NN|FK|
-|:---|:-----|:--|:--|:--:|:--:|
-|購入詳細ID|detail_id|bigint(20)|〇|〇|　|
-|オーダーID|order_id|bigint(20)|〇|〇|〇|
-|商品コード|item_code|int(11)| |〇|　|
-|価格|price|int(11)| |〇||
-|数量|num|int(11)| |〇||
+### レビューテーブル(d_Review)
+|和名|属性名(カラム名)|型|PK|NN|FK|
+|:--|:-----|:--|:--|:--|:--|
+|レビューID|Review_id|int(10)|〇|〇|〇|
+|投稿日|date|date| |〇|〇|
+
+
+### レビューテーブル(d_Review-detail)
+|和名|属性名(カラム名)|型|PK|NN|FK|
+|:--|:-----|:--|:--|:--|:--|
+|レビューID|Review_id|int(10)|〇|〇|〇|
+|ユーザID|user_id|int(8)|〇|〇|　|
+|タイトル|title|varchar(100)| |〇||
+|レビュー|Review|varchar(1000)| |〇||
+
 
 ### 弁護士マスタ (m_lawyer)
-|和名|属性名|型|PK|NN|FK|
+|和名|属性名(カラム名)|型|PK|NN|FK|
 |:---|:-----|:--|:--|:--:|:--:|
 |弁護士登録番号|customer_code|int(5)|〇|〇|〇|
 |パスワード|pass|varchar(6)| |〇| |
@@ -52,7 +59,7 @@
 
 
 ### 顧客マスタ (m_user)
-|和名|属性名|型|PK|NN|FK|
+|和名|属性名(カラム名)|型|PK|NN|FK|
 |:---|:-----|:--|:--|:--:|:--:|
 |ユーザーID|user_id|int(8)|〇|〇|　|
 |パスワード|pass|varchar(6)| |〇| |
