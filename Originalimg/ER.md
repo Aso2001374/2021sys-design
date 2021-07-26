@@ -92,7 +92,7 @@ package "ECサイト" as target_system {
     }
     
      lawyer ||-r-|| Review
-     Review ||-r-o{ Review-detail
+     Review ||-r-o { Review-detail
      lawyer }o-d-|| conditions
  }   
 @enduml
