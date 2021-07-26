@@ -33,7 +33,7 @@ m_lawyer
 |mail2|varchar(50)| || |
 |bank|varchar(30)| |〇| |
 |bank_number|int(7)| |〇| |
-|picture|(webと同じやり方でimg)| |〇| |
+|picture|https://www.figma.com/file/EC6HJax9FH50cwnpwUmhDG/Untitled?node-id=29%3A2| |〇| |
 |Prefectures_number|int(2)||〇||
 |consultation_code|int(2)||〇||
 |cash_code|int(2)||〇||
