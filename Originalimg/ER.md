@@ -48,7 +48,7 @@ package "ECサイト" as target_system {
     }
 
 
-    entity "レビュー詳細テーブル" as Review-detail <d_Review-detail> <<T,TRANSACTION_MARK_COLOR>> {
+    entity "レビュー詳細テーブル" as ReviewDetail <d_Review-detail> <<T,TRANSACTION_MARK_COLOR>> {
         + Review_id [PK]
         + Review_detail-id[PK]
         + user_id[PK]
@@ -92,7 +92,7 @@ package "ECサイト" as target_system {
     }
     
      lawyer ||-r-|| Review
-     Review ||-r-|| Review-detail
+     Review ||-r-|| ReviewDetail
      lawyer }o-d-|| conditions
  }   
 @enduml
