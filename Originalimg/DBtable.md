@@ -64,6 +64,7 @@ d_Review
 |属性名|型|PK|NN|FK|
 |-----|--|--|--|--|
 |Review_id|int(10)|〇|〇|〇|
+|customer_code|int(5)|〇|〇||
 |date|date| |〇|〇|
 
 
